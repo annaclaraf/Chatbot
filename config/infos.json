@@ -1,0 +1,53 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "O que é um programador?",
+        "O que é um desenvolvedor?",
+        "O que faz um programador?"
+      ],
+      "resposta": "O programador ou desenvolvedor é o profissional que cria, desenvolve e mantém diferentes tipos de softwares em sistemas amplos ou para uso em computadores pessoais. Ele usa linguagens de programação para criar comandos, podendo desenvolver banco de dados, softwares, aplicativos, sites, entre outras aplicações envolvendo o universo digital. Em suma, uma pessoa que programa é responsável por transformar ideias e requisitos em aplicações tecnológicas."
+    },
+    {
+      "mensagens": [
+        "O que devo estudar para aprender programação?",
+        "Como aprender programação?"
+      ],
+      "resposta": "Você deve focar o seu tempo em aprender a chamada lógica de programação. É uma forma de traduzir seu pensamento em uma estrutura que poderá ser escrita utilizando qualquer linguagem de programação. O objetivo deste conhecimento é aumentar o seu raciocínio lógico para assim torna-lo capaz de encontrar a melhor resolução para problemas futuros, que precisarão ser resolvidos através da tecnologia. "
+    },
+    {
+      "mensagens": [
+        "Qual a diferença entre backend e frontend?",
+        "O que é backend e frontend?"
+      ],
+      "resposta": "O front-end pode ser considerado como a parte visual de um site, aquilo que o usuário consegue ver e interagir. Quem trabalha com Front End é responsável por desenvolver por meio do código uma interface gráfica e, normalmente, com as tecnologias base da Web: HTML, CSS e JavaScript. Já o back-end, trata-se das funções dos bastidores de uma aplicação web, é toda a lógica que esta por trás do que está visível para os usuários. Por isso, envolve também um pouco mais de abstração."
+    },
+    {
+      "mensagens": [
+        "O que é orientação a objetos?",
+        "O que é programação orientada a objetos?"
+      ],
+      "resposta": "A programação orientada a objetos é um paradigma da programação que tem como objetivo utilizar “objetos” na construção de um software. Um objeto tem como principal função abstrair algo do mundo real com atributos que representam suas propriedades ou métodos."
+    },
+    {
+      "mensagens": [
+        "Qual a melhor linguagem de programação?"
+      ],
+      "resposta": "Não existe uma resposta definitiva para essa pergunta, porque a resposta depende de vários fatores. Não há apenas uma “melhor” linguagem, toda linguagem de programação foi criada para suprir uma necessidade. Então vai depender do problema a ser resolvido, e também da situação do programador."
+    },
+    {
+      "mensagens": [
+        "Qual a diferença entre JavaScript e TypeScript?",
+        "O que é JavaScript e TypeScript?"
+      ],
+      "resposta": "São duas linguagens de programação diferentes, porém uma é o superconjunto de outra. TypeScript é esse superconjunto, ele foi desenvolvido para preencher as lacunas do JavaScript. Podemos imaginar que o TypeScript é o JavaScript com alguns recursos adicionais. O JavaScript é uma linguagem de programação com tipagem dinâmica já o TypeScript tem tipagem estática, assim, ele aponta erros de tipagem durante o desenvolvimento da aplicação enquanto o JavaScript não."
+    },
+    {
+      "mensagens": [
+        "Como está o mercado de trabalho para a programação atualmente?",
+        "Como está o mercado para a área de programação?"
+      ],
+      "resposta": "O setor de tecnologia é um dos menos atingidos pelas crises econômicas, o que torna a carreira de programador uma das mais estáveis e promissoras do mercado. O mercado de programação está muito aquecido, assim como, a demanda por desenvolvedores. As empresas estão correndo para se adaptar à transformação digital, tentando automatizar seus processos e adotar novas aplicações que solucionam seus problemas diários. Por essa razão, saber programar e evoluir de acordo com as inovações que surgem são características especiais para conseguir um trabalho nesse ramo futuramente."
+    }
+  ]
+}

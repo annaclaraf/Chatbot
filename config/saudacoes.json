@@ -1,0 +1,30 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "oi",
+        "olá",
+        "tudo bem?"
+      ],
+      "resposta": "Olá, sou a Aribot e tiro dúvidas sobre programação. O que gostaria de saber?"
+    },
+    {
+      "mensagens": [
+        "bom dia"
+      ],
+      "resposta": "Bom dia, sou a Aribot e tiro dúvidas sobre programação. O que gostaria de saber?"
+    },
+    {
+      "mensagens": [
+        "boa tarde"
+      ],
+      "resposta": "Boa tarde, sou a Aribot e tiro dúvidas sobre programação. O que gostaria de saber?"
+    },
+    {
+      "mensagens": [
+        "boa noite"
+      ],
+      "resposta": "Boa noite, sou a Aribot e tiro dúvidas sobre programação. O que gostaria de saber?"
+    }
+  ]
+}
