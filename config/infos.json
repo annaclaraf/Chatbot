@@ -37,8 +37,8 @@
     },
     {
       "mensagens": [
-        "Qual a diferença entre JavaScript e TypeScript?",
-        "O que é JavaScript e TypeScript?"
+        "Qual a diferença entre javascript e typescript?",
+        "O que é javascript e typescript?"
       ],
       "resposta": "São duas linguagens de programação diferentes, porém uma é o superconjunto de outra. TypeScript é esse superconjunto, ele foi desenvolvido para preencher as lacunas do JavaScript. Podemos imaginar que o TypeScript é o JavaScript com alguns recursos adicionais. O JavaScript é uma linguagem de programação com tipagem dinâmica já o TypeScript tem tipagem estática, assim, ele aponta erros de tipagem durante o desenvolvimento da aplicação enquanto o JavaScript não."
     },
