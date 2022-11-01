@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Aribot</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <main class="main">
+
+      <div class="banner">
+        <img src="image.png" />
+      </div>
+
+      <div class="container">
+        <div class="header">
+          <img src="icon-chatbot.png" />
+          <span>Aribot</span>
+        </div>
+        <section class="chat">
+          <div class="messages-container">
+            <ul id="messages"></ul>
+          </div>
+          <form action="">
+            <input id="m" autocomplete="off" placeholder="Pergunte alguma coisa" />
+            <button>Enviar</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      $(function () {
+        var socket = io();
+        $('form').submit(function(){
+          socket.emit('chat message', $('#m').val());
+          $('#m').val('');
+          return false;
+        });
+        socket.on('chat message', function(msg){
+          $('#messages').append($('<li>').text(msg));
+          let chat = document.querySelector('.messages-container')
+          chat.scrollTop = chat.scrollHeight;
+        });
+      });
+
+      document.querySelector(".header").addEventListener("click", () => {
+        document.querySelector(".chat").classList.toggle("hide");
+      });
+    </script>
+  </body>
+</html>
