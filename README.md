@@ -27,7 +27,7 @@ $ cd web
 $ npm i
 
 # Execute a aplicação 
-npm run start 
+$ npm run start 
 ```
 
 Por fim, o robô estará disponível para acesso no seu navegador em: http://localhost:3000/
